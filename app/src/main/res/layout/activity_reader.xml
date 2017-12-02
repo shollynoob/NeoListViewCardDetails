@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    tools:context="com.nightbit.neolistviewcarddetails.Reader">
+
+
+    <TextView
+        android:id="@+id/fname"
+        android:textSize="30sp"
+        android:text=""
+        tools:text="FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/lname"
+        android:textSize="30sp"
+        tools:text="The Author"
+        android:text="LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/subject"
+        android:textSize="30sp"
+        tools:text="The Date"
+        android:text="Subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/song"
+        android:textSize="30sp"
+        tools:text="The Quote"
+        android:text="Song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
